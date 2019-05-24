@@ -2,71 +2,62 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <title>SmartTv</title>
-    <link href="CSS\style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <title>SmartTv</title>
+  <link href="CSS\style.css" rel="stylesheet" type="text/css">
 
-    <script  src="JS\script.js" type="text/javascript" ></script>
 
 </head>
 
-<header>
 
-    <img class="logo" src="Images\logo.png">
-
+<body>
+<header class="header">
+  <img class="logo" src="Images\logo.png">
+  <div class="data"></div>
 </header>
 
-<div class="datatime">
 
-        <h1>
-            Сегодня: <br>
+<main class="wrap">
 
-            <div id="date">
-            <script>
-                dataPrint();
-            </script>
-            </div>
-            <div id="clock">
-                <script>
-                    timePrint();
-                </script>
-            </div>
-        </h1>
-</div>
-<body>
+  <a class="wrap-item" href="https://www.google.com/" target="_blank">
+    <img src="Images\google.png" alt="Google" class="img">
+  </a>
 
+  <a class="wrap-item" href="http://video.koma.tv" target="_blank">
+    <img src="Images\video.png" alt="Video" class="img">
+  </a>
 
-    <div class="context">
+  <a class="wrap-item" href="https://www.youtube.com" target="_blank">
+    <img src="Images\youtube.png" alt="YouTube" class="img">
+  </a>
 
+  <a class="wrap-item" href="http://serial.koma.tv" target="_blank">
+    <img src="Images\serial.png" alt="Serial" class="img">
+  </a>
 
-        <a href="https://www.google.com/" target="_blank"  ><img src="Images\google.png" alt="Google" class="conimg" ></a>
+  <a class="wrap-item" href="http://tv.mclaut.com/" target="_blank">
+    <img src="Images\tvmclaut.png" alt="tv.mclaut" class="img">
+  </a>
 
-        <a href="http://video.koma.tv" target="_blank"  ><img src="Images\video.png" alt="Video" class="conimg"></a>
+  <a class="wrap-item" href="http://tvshow.koma.tv" target="_blank">
+    <img src="Images\tvshow.png" alt="Serial" class="img">
+  </a>
 
-        <a href="https://www.youtube.com" target="_blank"  ><img src="Images\youtube.png" alt="YouTube" class="conimg"  ></a>
+  <a class="wrap-item" href="http://Music.koma.tv" target="_blank">
+    <img src="Images\Music.png" alt="Music" class="img">
+  </a>
 
-	 <a href="http://serial.koma.tv" target="_blank"  ><img src="Images\serial.png" alt="Serial"class="conimg"></a>        
+  <a class="wrap-item" href="http://ex-fs.net/" target="_blank">
+    <img src="Images\exfs.png" alt="http://ex-fs.net/" class="img">
+  </a>
 
-         <a href="http://tv.mclaut.com/" target="_blank"  ><img src="Images\tvmclaut.png" alt="tv.mclaut"class="conimg"></a>
-
-	<a href="http://tvshow.koma.tv" target="_blank"  ><img src="Images\tvshow.png" alt="Serial" class="conimg"></a>      
-
-	<a href="http://Music.koma.tv" target="_blank"  ><img src="Images\Music.png" alt="Music" class="conimg"></a>
-        
-	<a href="http://ex-fs.net/" target="_blank"  ><img src="Images\exfs.png" alt="http://ex-fs.net/" class="conimg"></a>
-
-	 <a href="http://docfilm.koma.tv" target="_blank"  ><img src="Images\docfilm.png" alt="docfilm"class="conimg"></a>
+  <a class="wrap-item" href="http://docfilm.koma.tv" target="_blank">
+    <img src="Images\docfilm.png" alt="docfilm" class="img">
+  </a>
 
 
+</main>
 
-
-    </div>
-
+<script src="JS\script.js" type="text/javascript"></script>
 </body>
-
-<footer>
-    <h6>
-        Ver. 0.95.Alfa
-    </h6>
-</footer>
 </html>
