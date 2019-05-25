@@ -1,0 +1,161 @@
+body {
+  max-width: 100%;
+  font-family: SansSerif;
+  background: #DEE3F8;
+}
+
+.header {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.logo {
+  height: 110px;
+  width: auto;
+}
+
+.box-date {
+  /*position: absolute;*/
+  /*top: 1%;*/
+  /*right: 10%;*/
+  margin-left: 5%;
+  font-size: 36px;
+  color: #9400D3;
+  line-height: 0.5;
+}
+
+.container {
+  width: 96%;
+  margin: 0.5% auto 0;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 30%;
+  height: 80px;
+  margin: 1%;
+  padding: .3%;
+  border: 2px solid transparent;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 80px;
+
+}
+
+.item a {
+  text-decoration: none;
+}
+
+.item:hover, .item:focus {
+  transition: all .6s ease-in-out;
+  border-radius: 25px;
+  border: 2px solid #9400D3;
+}
+
+.blue {
+  color: #1E50ED;
+  text-shadow: 1px 2px 5px #1E50ED;
+}
+
+.red {
+  color: #E12932;
+  text-shadow: 1px 2px 5px #E12932;
+}
+
+.yellow {
+  color: #DD9A0C;
+  text-shadow: 1px 2px 5px #DD9A0C;
+}
+
+.green {
+  color: #008010;
+  text-shadow: 1px 2px 5px #008010;
+}
+
+.black {
+  color: #000;
+}
+
+.before {
+  font-size: 38px;
+}
+
+.before:before {
+  display: inline-block;
+  color: #fff;
+  border-radius: 15px;
+  line-height: 60px;
+  height: 60px;
+  margin-right: 7px;
+  font-size: 38px;
+}
+
+.video:before {
+  width: 160px;
+  background: #7B89C1;
+  content: 'Video.';
+}
+
+.youtube:before {
+  width: 90px;
+  background: #E12932;
+  content: ' \25B6 ';
+}
+
+.tvmclaut {
+  color: #FF7F00;
+}
+
+.tvmclaut:before {
+  color: #FF7F00;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #FF7F00;
+  border-radius: 15px;
+  content: ' TV';
+  margin-right: 5px;
+}
+
+.tvmclaut:after {
+  content: 'Laut';
+  margin-right: 5px;
+  color: #3A2D88;
+}
+
+.com {
+  font-size: 28px;
+  color: #FF7F00;
+}
+
+.serial:before {
+  width: 160px;
+  background: #F58838;
+  content: 'Serial.';
+}
+
+.tvshow:before {
+  width: 160px;
+  background: #B51A1A;
+  content: 'TVshow.';
+}
+
+.music:before {
+  width: 160px;
+  background: #AC63A3;
+  content: 'Music.';
+}
+
+.docfilm:before {
+  width: 160px;
+  background: #939393;
+  content: 'Docfilm.';
+}
